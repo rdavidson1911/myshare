@@ -1,0 +1,37 @@
+@startuml
+!define RECTANGLE class
+
+RECTANGLE Unicode_Standard {
+  +Plane 0: Basic Multilingual Plane (BMP)
+  +Plane 1: Supplementary Multilingual Plane (SMP)
+  +Plane 2: Supplementary Ideographic Plane (SIP)
+  +Planes 3-13: Unassigned
+  +Plane 14: Supplementary Special-purpose Plane (SSP)
+  +Planes 15-16: Supplementary Private Use Area (PUA)
+}
+
+RECTANGLE Code_Point {
+  +U+0000 to U+007F: Basic Latin (ASCII)
+  +U+0080 to U+07FF: Additional Latin, Greek, Cyrillic
+  +U+0800 to U+FFFF: More Scripts, Symbols
+  +U+10000 to U+1FFFF: Rare Scripts, Historical Scripts
+}
+
+RECTANGLE Character_Properties {
+  +General Category
+  +Combining Class
+  +Bidirectional Category
+  +Decomposition Type
+}
+
+RECTANGLE Encoding_Forms {
+  +UTF-8
+  +UTF-16
+  +UTF-32
+}
+
+Unicode_Standard -down-|> Code_Point : Contains
+Code_Point -down-|> Character_Properties : Has
+Unicode_Standard -down-|> Encoding_Forms : Supports
+
+@enduml
