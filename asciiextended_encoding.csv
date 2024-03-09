@@ -1,257 +1,257 @@
-Decimal	Octal	Hex	Binary	Value	Description	Ascii
-0	0	0	0000 0000	NUL	"null" character	Ascii
-1	1	1	0000 0001	SOH	start of header	Ascii
-2	2	2	0000 0010	STX	start of text	Ascii
-3	3	3	0000 0011	ETX	end of text	Ascii
-4	4	4	0000 0100	EOT	end of transmission	Ascii
-5	5	5	0000 0101	ENQ	enquiry	Ascii
-6	6	6	0000 0110	ACK	acknowledgment	Ascii
-7	7	7	0000 0111	BEL	bell	Ascii
-8	10	8	0000 1000	BS	backspace	Ascii
-9	11	9	0000 1001	HT	horizontal tab	Ascii
-10	12	0A	0000 1010	LF	line feed	Ascii
-11	13	0B	0000 1011	VT	vertical tab	Ascii
-12	14	0C	0000 1100	FF	form feed	Ascii
-13	15	0D	0000 1101	CR	carriage return	Ascii
-14	16	0E	0000 1110	SO	shift out	Ascii
-15	17	0F	0000 1111	SI	shift in	Ascii
-16	20	10	0001 0000	DLE	data link escape	Ascii
-17	21	11	0001 0001	DC1	device control 1 (XON)	Ascii
-18	22	12	0001 0010	DC2	device control 2	Ascii
-19	23	13	0001 0011	DC3	device control 3 (XOFF)	Ascii
-20	24	14	0001 0100	DC4	device control 4	Ascii
-21	25	15	0001 0101	NAK	negative acknowledgement	Ascii
-22	26	16	0001 0110	SYN	synchronous idle	Ascii
-23	27	17	0001 0111	ETB	end of transmission block	Ascii
-24	30	18	0001 1000	CAN	cancel	Ascii
-25	31	19	0001 1001	EM	end of medium	Ascii
-26	32	1A	0001 1010	SUB	substitute	Ascii
-27	33	1B	0001 1011	ESC	escape	Ascii
-28	34	1C	0001 1100	FS	file separator	Ascii
-29	35	1D	0001 1101	GS	group separator	Ascii
-30	36	1E	0001 1110	RS	request to send/record separator	Ascii
-31	37	1F	0001 1111	US	unit separator	Ascii
-32	40	20	0010 0000	SP	space	Ascii
-33	41	21	0010 0001	!	exclamation mark	Ascii
-34	42	22	0010 0010	"	double quote	Ascii
-35	43	23	0010 0011	#	number sign	Ascii
-36	44	24	0010 0100	$	dollar sign	Ascii
-37	45	25	0010 0101	%	percent	Ascii
-38	46	26	0010 0110	&	ampersand	Ascii
-39	47	27	0010 0111	'	single quote	Ascii
-40	50	28	0010 1000	(	left/opening parenthesis	Ascii
-41	51	29	0010 1001	)	right/closing parenthesis	Ascii
-42	52	2A	0010 1010	*	asterisk	Ascii
-43	53	2B	0010 1011	+	plus	Ascii
-44	54	2C	0010 1100	,	comma	Ascii
-45	55	2D	0010 1101	-	minus or dash	Ascii
-46	56	2E	0010 1110	.	dot	Ascii
-47	57	2F	0010 1111	/	forward slash	Ascii
-48	60	30	0011 0000	0		Ascii
-49	61	31	0011 0001	1		Ascii
-50	62	32	0011 0010	2		Ascii
-51	63	33	0011 0011	3		Ascii
-52	64	34	0011 0100	4		Ascii
-53	65	35	0011 0101	5		Ascii
-54	66	36	0011 0110	6		Ascii
-55	67	37	0011 0111	7		Ascii
-56	70	38	0011 1000	8		Ascii
-57	71	39	0011 1001	9		Ascii
-58	72	3A	0011 1010	:	colon	Ascii
-59	73	3B	0011 1011	;	semi-colon	Ascii
-60	74	3C	0011 1100	<	less than	Ascii
-61	75	3D	0011 1101	=	equal sign	Ascii
-62	76	3E	0011 1110	>	greater than	Ascii
-63	77	3F	0011 1111	?	question mark	Ascii
-64	100	40	0100 0000	@	"at" symbol	Ascii
-65	101	41	0100 0001	A		Ascii
-66	102	42	0100 0010	B		Ascii
-67	103	43	0100 0011	C		Ascii
-68	104	44	0100 0100	D		Ascii
-69	105	45	0100 0101	E		Ascii
-70	106	46	0100 0110	F		Ascii
-71	107	47	0100 0111	G		Ascii
-72	110	48	0100 1000	H		Ascii
-73	111	49	0100 1001	I		Ascii
-74	112	4A	0100 1010	J		Ascii
-75	113	4B	0100 1011	K		Ascii
-76	114	4C	0100 1100	L		Ascii
-77	115	4D	0100 1101	M		Ascii
-78	116	4E	0100 1110	N		Ascii
-79	117	4F	0100 1111	O		Ascii
-80	120	50	0101 0000	P		Ascii
-81	121	51	0101 0001	Q		Ascii
-82	122	52	0101 0010	R		Ascii
-83	123	53	0101 0011	S		Ascii
-84	124	54	0101 0100	T		Ascii
-85	125	55	0101 0101	U		Ascii
-86	126	56	0101 0110	V		Ascii
-87	127	57	0101 0111	W		Ascii
-88	130	58	0101 1000	X		Ascii
-89	131	59	0101 1001	Y		Ascii
-90	132	5A	0101 1010	Z		Ascii
-91	133	5B	0101 1011	[	left/opening bracket	Ascii
-92	134	5C	0101 1100	\	back slash	Ascii
-93	135	5D	0101 1101	]	right/closing bracket	Ascii
-94	136	5E	0101 1110	^	caret/circumflex	Ascii
-95	137	5F	0101 1111	_	underscore	Ascii
-96	140	60	0110 0000	`		Ascii
-97	141	61	0110 0001	a		Ascii
-98	142	62	0110 0010	b		Ascii
-99	143	63	0110 0011	c		Ascii
-100	144	64	0110 0100	d		Ascii
-101	145	65	0110 0101	e		Ascii
-102	146	66	0110 0110	f		Ascii
-103	147	67	0110 0111	g		Ascii
-104	150	68	0110 1000	h		Ascii
-105	151	69	0110 1001	i		Ascii
-106	152	6A	0110 1010	j		Ascii
-107	153	6B	0110 1011	k		Ascii
-108	154	6C	0110 1100	l		Ascii
-109	155	6D	0110 1101	m		Ascii
-110	156	6E	0110 1110	n		Ascii
-111	157	6F	0110 1111	o		Ascii
-112	160	70	0111 0000	p		Ascii
-113	161	71	0111 0001	q		Ascii
-114	162	72	0111 0010	r		Ascii
-115	163	73	0111 0011	s		Ascii
-116	164	74	0111 0100	t		Ascii
-117	165	75	0111 0101	u		Ascii
-118	166	76	0111 0110	v		Ascii
-119	167	77	0111 0111	w		Ascii
-120	170	78	0111 1000	x		Ascii
-121	171	79	0111 1001	y		Ascii
-122	172	7A	0111 1010	z		Ascii
-123	173	7B	0111 1011	{	left/opening brace	Ascii
-124	174	7C	0111 1100	|	vertical bar	Ascii
-125	175	7D	0111 1101	}	right/closing brace	Ascii
-126	176	7E	0111 1110	~	tilde	Ascii
-127	177	7F	0111 1111	DEL	delete	Ascii
-128	200	80	1000 0000	Ç	capital letter c with cedilla	Ascii
-129	201	81	1000 0001	ü	letter u with diaeresis	Ascii
-130	202	82	1000 0010	é	letter e with acute	Ascii
-131	203	83	1000 0011	â	letter a with circumflex	Ascii
-132	204	84	1000 0100	ä	letter a with diaeresis	Ascii
-133	205	85	1000 0101	à	letter a with grave	Ascii
-134	206	86	1000 0110	å	letter a with ring above	Ascii
-135	207	87	1000 0111	ç	letter c with cedilla	Ascii
-136	210	88	1000 1000	ê	letter e with circumflex	Ascii
-137	211	89	1000 1001	ë	letter e with diaeresis	Ascii
-138	212	8A	1000 1010	è	letter e with grave	Ascii
-139	213	8B	1000 1011	ï	letter i with diaeresis	Ascii
-140	214	8C	1000 1100	î	letter i with circumflex	Ascii
-141	215	8D	1000 1101	ì	letter i with grave	Ascii
-142	216	8E	1000 1110	Ä	capital letter a with diaeresis	Ascii
-143	217	8F	1000 1111	Å	capital letter a with ring above	Ascii
-144	220	90	1001 0000	É	capital letter e with acute	Ascii
-145	221	91	1001 0001	æ	letter ae	Ascii
-146	222	92	1001 0010	Æ	capital letter ae	Ascii
-147	223	93	1001 0011	ô	letter o with circumflex	Ascii
-148	224	94	1001 0100	ö	letter o with diaeresis	Ascii
-149	225	95	1001 0101	ò	letter o with grave	Ascii
-150	226	96	1001 0110	û	letter u with circumflex	Ascii
-151	227	97	1001 0111	ù	letter u with grave	Ascii
-152	230	98	1001 1000	ÿ	letter y with diaeresis	Ascii
-153	231	99	1001 1001	Ö	capital letter o with diaeresis	Ascii
-154	232	9A	1001 1010	Ü	capital letter u with diaeresis	Ascii
-155	233	9B	1001 1011	¢	letter o with stroke	Ascii
-156	234	9C	1001 1100	£	pound sign	Ascii
-157	235	9D	1001 1101	¥	yen sign	Ascii
-158	236	9E	1001 1110	₧	peseta sign	Ascii
-159	237	9F	1001 1111	ƒ	letter f with hook	Ascii
-160	240	A0	1010 0000	á	letter a with acute	Ascii
-161	241	A1	1010 0001	í	letter i with acute	Ascii
-162	242	A2	1010 0010	ó	letter o with acute	Ascii
-163	243	A3	1010 0011	ú	letter u with acute	Ascii
-164	244	A4	1010 0100	ñ	letter n with tilde	Ascii
-165	245	A5	1010 0101	Ñ	capital letter n with tilde	Ascii
-166	246	A6	1010 0110	ª	feminine ordinal indicator	Ascii
-167	247	A7	1010 0111	º	masculine ordinal indicator	Ascii
-168	250	A8	1010 1000	¿	inverted question mark	Ascii
-169	251	A9	1010 1001	⌐	reversed not sign	Ascii
-170	252	AA	1010 1010	¬	not sign	Ascii
-171	253	AB	1010 1011	½	one half	Ascii
-172	254	AC	1010 1100	¼	one quarter	Ascii
-173	255	AD	1010 1101	¡	inverted exclamation mark	Ascii
-174	256	AE	1010 1110	«	left double angle quotation mark	Ascii
-175	257	AF	1010 1111	»	right double angle quotation mark	Ascii
-176	260	B0	1011 0000	░	light shade	Ascii
-177	261	B1	1011 0001	▒	medium shade	Ascii
-178	262	B2	1011 0010	▓	dark shade	Ascii
-179	263	B3	1011 0011	│	single vertical	Ascii
-180	264	B4	1011 0100	┤	single vertical and left	Ascii
-181	265	B5	1011 0101	╡	single vertical and double left	Ascii
-182	266	B6	1011 0110	╢	double vertical and single left	Ascii
-183	267	B7	1011 0111	╖	double down and single left	Ascii
-184	270	B8	1011 1000	╕	single down and double left	Ascii
-185	271	B9	1011 1001	╣	double vertical and left	Ascii
-186	272	BA	1011 1010	║	double vertical	Ascii
-187	273	BB	1011 1011	╗	double down and left	Ascii
-188	274	BC	1011 1100	╝	double up and left	Ascii
-189	275	BD	1011 1101	╜	double up and single left	Ascii
-190	276	BE	1011 1110	╛	single up and double left	Ascii
-191	277	BF	1011 1111	┐	single down and left	Ascii
-192	300	C0	1100 0000	└	single up and right	Ascii
-193	301	C1	1100 0001	┴	single up and horizontal	Ascii
-194	302	C2	1100 0010	┬	single down and horizontal	Ascii
-195	303	C3	1100 0011	├	single vertical and right	Ascii
-196	304	C4	1100 0100	─	single horizontal	Ascii
-197	305	C5	1100 0101	┼	single vertical and horizontal	Ascii
-198	306	C6	1100 0110	╞	single vertical and double right	Ascii
-199	307	C7	1100 0111	╟	double vertical and single right	Ascii
-200	310	C8	1100 1000	╚	double up and right	Ascii
-201	311	C9	1100 1001	╔	double down and right	Ascii
-202	312	CA	1100 1010	╩	double up and horizontal	Ascii
-203	313	CB	1100 1011	╦	double down and horizontal	Ascii
-204	314	CC	1100 1100	╠	double vertical and right	Ascii
-205	315	CD	1100 1101	═	double horizontal	Ascii
-206	316	CE	1100 1110	╬	double vertical and horizontal	Ascii
-207	317	CF	1100 1111	╧	single up and double horizontal	Ascii
-208	320	D0	1101 0000	╨	double up and single horizontal	Ascii
-209	321	D1	1101 0001	╤	single down and double horizontal	Ascii
-210	322	D2	1101 0010	╥	double down and single horizontal	Ascii
-211	323	D3	1101 0011	╙	double up and single right	Ascii
-212	324	D4	1101 0100	╘	single up and double right	Ascii
-213	325	D5	1101 0101	╒	single down and double right	Ascii
-214	326	D6	1101 0110	╓	double down and single right	Ascii
-215	327	D7	1101 0111	╫	double vertical and single horizontal	Ascii
-216	330	D8	1101 1000	╪	single vertical and double horizontal	Ascii
-217	331	D9	1101 1001	┘	single up and left	Ascii
-218	332	DA	1101 1010	┌	single down and right	Ascii
-219	333	DB	1101 1011	█	full block	Ascii
-220	334	DC	1101 1100	▄	bottom half block	Ascii
-221	335	DD	1101 1101	▌	left half block	Ascii
-222	336	DE	1101 1110	▐	right half block	Ascii
-223	337	DF	1101 1111	▀	top half block	Ascii
-224	340	E0	1110 0000	α	greek letter alpha	Ascii
-225	341	E1	1110 0001	ß	letter sharp s	Ascii
-226	342	E2	1110 0010	Γ	greek capital letter gamma	Ascii
-227	343	E3	1110 0011	π	greek letter pi	Ascii
-228	344	E4	1110 0100	Σ	greek capital letter sigma	Ascii
-229	345	E5	1110 0101	σ	greek letter sigma	Ascii
-230	346	E6	1110 0110	µ	micro sign	Ascii
-231	347	E7	1110 0111	τ	greek letter tau	Ascii
-232	350	E8	1110 1000	Φ	greek capital letter phi	Ascii
-233	351	E9	1110 1001	Θ	greek capital letter theta	Ascii
-234	352	EA	1110 1010	Ω	greek capital letter omega	Ascii
-235	353	EB	1110 1011	δ	greek letter delta	Ascii
-236	354	EC	1110 1100	∞	infinity	Ascii
-237	355	ED	1110 1101	φ	greek letter phi	Ascii
-238	356	EE	1110 1110	ε	greek letter epsilon	Ascii
-239	357	EF	1110 1111	∩	intersection	Ascii
-240	360	F0	1111 0000	≡	identical to	Ascii
-241	361	F1	1111 0001	±	plus-minus sign	Ascii
-242	362	F2	1111 0010	≥	greater than or equal to	Ascii
-243	363	F3	1111 0011	≤	less than or equal to	Ascii
-244	364	F4	1111 0100	⌠	top half integral	Ascii
-245	365	F5	1111 0101	⌡	bottom half integral	Ascii
-246	366	F6	1111 0110	÷	division sign	Ascii
-247	367	F7	1111 0111	≈	almost equal to	Ascii
-248	370	F8	1111 1000	°	degree sign	Ascii
-249	371	F9	1111 1001	∙	bullet operator	Ascii
-250	372	FA	1111 1010	·	middle dot	Ascii
-251	373	FB	1111 1011	√	square root	Ascii
-252	374	FC	1111 1100	ⁿ	superscript n	Ascii
-253	375	FD	1111 1101	²	superscript 2	Ascii
-254	376	FE	1111 1110	■	black square	Ascii
-255	377	FF	1111 1111		no-break space	Ascii
+Decimal,Octal,Hex,Binary,Value,Description,Code Page
+0,0,0,0000 0000,NUL,"""null"" character",Ascii
+1,1,1,0000 0001,SOH,start of header,Ascii
+2,2,2,0000 0010,STX,start of text,Ascii
+3,3,3,0000 0011,ETX,end of text,Ascii
+4,4,4,0000 0100,EOT,end of transmission,Ascii
+5,5,5,0000 0101,ENQ,enquiry,Ascii
+6,6,6,0000 0110,ACK,acknowledgment,Ascii
+7,7,7,0000 0111,BEL,bell,Ascii
+8,10,8,0000 1000,BS,backspace,Ascii
+9,11,9,0000 1001,HT,horizontal tab,Ascii
+10,12,0A,0000 1010,LF,line feed,Ascii
+11,13,0B,0000 1011,VT,vertical tab,Ascii
+12,14,0C,0000 1100,FF,form feed,Ascii
+13,15,0D,0000 1101,CR,carriage return,Ascii
+14,16,0E,0000 1110,SO,shift out,Ascii
+15,17,0F,0000 1111,SI,shift in,Ascii
+16,20,10,0001 0000,DLE,data link escape,Ascii
+17,21,11,0001 0001,DC1,device control 1 (XON),Ascii
+18,22,12,0001 0010,DC2,device control 2,Ascii
+19,23,13,0001 0011,DC3,device control 3 (XOFF),Ascii
+20,24,14,0001 0100,DC4,device control 4,Ascii
+21,25,15,0001 0101,NAK,negative acknowledgement,Ascii
+22,26,16,0001 0110,SYN,synchronous idle,Ascii
+23,27,17,0001 0111,ETB,end of transmission block,Ascii
+24,30,18,0001 1000,CAN,cancel,Ascii
+25,31,19,0001 1001,EM,end of medium,Ascii
+26,32,1A,0001 1010,SUB,substitute,Ascii
+27,33,1B,0001 1011,ESC,escape,Ascii
+28,34,1C,0001 1100,FS,file separator,Ascii
+29,35,1D,0001 1101,GS,group separator,Ascii
+30,36,1E,0001 1110,RS,request to send/record separator,Ascii
+31,37,1F,0001 1111,US,unit separator,Ascii
+32,40,20,0010 0000,SP,space,Ascii
+33,41,21,0010 0001,!,exclamation mark,Ascii
+34,42,22,0010 0010,"""",double quote,Ascii
+35,43,23,0010 0011,#,number sign,Ascii
+36,44,24,0010 0100,$,dollar sign,Ascii
+37,45,25,0010 0101,%,percent,Ascii
+38,46,26,0010 0110,&,ampersand,Ascii
+39,47,27,0010 0111,',single quote,Ascii
+40,50,28,0010 1000,(,left/opening parenthesis,Ascii
+41,51,29,0010 1001,),right/closing parenthesis,Ascii
+42,52,2A,0010 1010,*,asterisk,Ascii
+43,53,2B,0010 1011,+,plus,Ascii
+44,54,2C,0010 1100,",",comma,Ascii
+45,55,2D,0010 1101,-,minus or dash,Ascii
+46,56,2E,0010 1110,.,dot,Ascii
+47,57,2F,0010 1111,/,forward slash,Ascii
+48,60,30,0011 0000,0,,Ascii
+49,61,31,0011 0001,1,,Ascii
+50,62,32,0011 0010,2,,Ascii
+51,63,33,0011 0011,3,,Ascii
+52,64,34,0011 0100,4,,Ascii
+53,65,35,0011 0101,5,,Ascii
+54,66,36,0011 0110,6,,Ascii
+55,67,37,0011 0111,7,,Ascii
+56,70,38,0011 1000,8,,Ascii
+57,71,39,0011 1001,9,,Ascii
+58,72,3A,0011 1010,:,colon,Ascii
+59,73,3B,0011 1011,;,semi-colon,Ascii
+60,74,3C,0011 1100,<,less than,Ascii
+61,75,3D,0011 1101,=,equal sign,Ascii
+62,76,3E,0011 1110,>,greater than,Ascii
+63,77,3F,0011 1111,?,question mark,Ascii
+64,100,40,0100 0000,@,"""at"" symbol",Ascii
+65,101,41,0100 0001,A,,Ascii
+66,102,42,0100 0010,B,,Ascii
+67,103,43,0100 0011,C,,Ascii
+68,104,44,0100 0100,D,,Ascii
+69,105,45,0100 0101,E,,Ascii
+70,106,46,0100 0110,F,,Ascii
+71,107,47,0100 0111,G,,Ascii
+72,110,48,0100 1000,H,,Ascii
+73,111,49,0100 1001,I,,Ascii
+74,112,4A,0100 1010,J,,Ascii
+75,113,4B,0100 1011,K,,Ascii
+76,114,4C,0100 1100,L,,Ascii
+77,115,4D,0100 1101,M,,Ascii
+78,116,4E,0100 1110,N,,Ascii
+79,117,4F,0100 1111,O,,Ascii
+80,120,50,0101 0000,P,,Ascii
+81,121,51,0101 0001,Q,,Ascii
+82,122,52,0101 0010,R,,Ascii
+83,123,53,0101 0011,S,,Ascii
+84,124,54,0101 0100,T,,Ascii
+85,125,55,0101 0101,U,,Ascii
+86,126,56,0101 0110,V,,Ascii
+87,127,57,0101 0111,W,,Ascii
+88,130,58,0101 1000,X,,Ascii
+89,131,59,0101 1001,Y,,Ascii
+90,132,5A,0101 1010,Z,,Ascii
+91,133,5B,0101 1011,[,left/opening bracket,Ascii
+92,134,5C,0101 1100,\,back slash,Ascii
+93,135,5D,0101 1101,],right/closing bracket,Ascii
+94,136,5E,0101 1110,^,caret/circumflex,Ascii
+95,137,5F,0101 1111,_,underscore,Ascii
+96,140,60,0110 0000,`,,Ascii
+97,141,61,0110 0001,a,,Ascii
+98,142,62,0110 0010,b,,Ascii
+99,143,63,0110 0011,c,,Ascii
+100,144,64,0110 0100,d,,Ascii
+101,145,65,0110 0101,e,,Ascii
+102,146,66,0110 0110,f,,Ascii
+103,147,67,0110 0111,g,,Ascii
+104,150,68,0110 1000,h,,Ascii
+105,151,69,0110 1001,i,,Ascii
+106,152,6A,0110 1010,j,,Ascii
+107,153,6B,0110 1011,k,,Ascii
+108,154,6C,0110 1100,l,,Ascii
+109,155,6D,0110 1101,m,,Ascii
+110,156,6E,0110 1110,n,,Ascii
+111,157,6F,0110 1111,o,,Ascii
+112,160,70,0111 0000,p,,Ascii
+113,161,71,0111 0001,q,,Ascii
+114,162,72,0111 0010,r,,Ascii
+115,163,73,0111 0011,s,,Ascii
+116,164,74,0111 0100,t,,Ascii
+117,165,75,0111 0101,u,,Ascii
+118,166,76,0111 0110,v,,Ascii
+119,167,77,0111 0111,w,,Ascii
+120,170,78,0111 1000,x,,Ascii
+121,171,79,0111 1001,y,,Ascii
+122,172,7A,0111 1010,z,,Ascii
+123,173,7B,0111 1011,{,left/opening brace,Ascii
+124,174,7C,0111 1100,|,vertical bar,Ascii
+125,175,7D,0111 1101,},right/closing brace,Ascii
+126,176,7E,0111 1110,~,tilde,Ascii
+127,177,7F,0111 1111,DEL,delete,Ascii
+128,200,80,1000 0000,Ç,capital letter c with cedilla,Ascii
+129,201,81,1000 0001,ü,letter u with diaeresis,Ascii
+130,202,82,1000 0010,é,letter e with acute,Ascii
+131,203,83,1000 0011,â,letter a with circumflex,Ascii
+132,204,84,1000 0100,ä,letter a with diaeresis,Ascii
+133,205,85,1000 0101,à,letter a with grave,Ascii
+134,206,86,1000 0110,å,letter a with ring above,Ascii
+135,207,87,1000 0111,ç,letter c with cedilla,Ascii
+136,210,88,1000 1000,ê,letter e with circumflex,Ascii
+137,211,89,1000 1001,ë,letter e with diaeresis,Ascii
+138,212,8A,1000 1010,è,letter e with grave,Ascii
+139,213,8B,1000 1011,ï,letter i with diaeresis,Ascii
+140,214,8C,1000 1100,î,letter i with circumflex,Ascii
+141,215,8D,1000 1101,ì,letter i with grave,Ascii
+142,216,8E,1000 1110,Ä,capital letter a with diaeresis,Ascii
+143,217,8F,1000 1111,Å,capital letter a with ring above,Ascii
+144,220,90,1001 0000,É,capital letter e with acute,Ascii
+145,221,91,1001 0001,æ,letter ae,Ascii
+146,222,92,1001 0010,Æ,capital letter ae,Ascii
+147,223,93,1001 0011,ô,letter o with circumflex,Ascii
+148,224,94,1001 0100,ö,letter o with diaeresis,Ascii
+149,225,95,1001 0101,ò,letter o with grave,Ascii
+150,226,96,1001 0110,û,letter u with circumflex,Ascii
+151,227,97,1001 0111,ù,letter u with grave,Ascii
+152,230,98,1001 1000,ÿ,letter y with diaeresis,Ascii
+153,231,99,1001 1001,Ö,capital letter o with diaeresis,Ascii
+154,232,9A,1001 1010,Ü,capital letter u with diaeresis,Ascii
+155,233,9B,1001 1011,¢,letter o with stroke,Ascii
+156,234,9C,1001 1100,£,pound sign,Ascii
+157,235,9D,1001 1101,¥,yen sign,Ascii
+158,236,9E,1001 1110,₧,peseta sign,Ascii
+159,237,9F,1001 1111,ƒ,letter f with hook,Ascii
+160,240,A0,1010 0000,á,letter a with acute,Ascii
+161,241,A1,1010 0001,í,letter i with acute,Ascii
+162,242,A2,1010 0010,ó,letter o with acute,Ascii
+163,243,A3,1010 0011,ú,letter u with acute,Ascii
+164,244,A4,1010 0100,ñ,letter n with tilde,Ascii
+165,245,A5,1010 0101,Ñ,capital letter n with tilde,Ascii
+166,246,A6,1010 0110,ª,feminine ordinal indicator,Ascii
+167,247,A7,1010 0111,º,masculine ordinal indicator,Ascii
+168,250,A8,1010 1000,¿,inverted question mark,Ascii
+169,251,A9,1010 1001,⌐,reversed not sign,Ascii
+170,252,AA,1010 1010,¬,not sign,Ascii
+171,253,AB,1010 1011,½,one half,Ascii
+172,254,AC,1010 1100,¼,one quarter,Ascii
+173,255,AD,1010 1101,¡,inverted exclamation mark,Ascii
+174,256,AE,1010 1110,«,left double angle quotation mark,Ascii
+175,257,AF,1010 1111,»,right double angle quotation mark,Ascii
+176,260,B0,1011 0000,░,light shade,Ascii
+177,261,B1,1011 0001,▒,medium shade,Ascii
+178,262,B2,1011 0010,▓,dark shade,Ascii
+179,263,B3,1011 0011,│,single vertical,Ascii
+180,264,B4,1011 0100,┤,single vertical and left,Ascii
+181,265,B5,1011 0101,╡,single vertical and double left,Ascii
+182,266,B6,1011 0110,╢,double vertical and single left,Ascii
+183,267,B7,1011 0111,╖,double down and single left,Ascii
+184,270,B8,1011 1000,╕,single down and double left,Ascii
+185,271,B9,1011 1001,╣,double vertical and left,Ascii
+186,272,BA,1011 1010,║,double vertical,Ascii
+187,273,BB,1011 1011,╗,double down and left,Ascii
+188,274,BC,1011 1100,╝,double up and left,Ascii
+189,275,BD,1011 1101,╜,double up and single left,Ascii
+190,276,BE,1011 1110,╛,single up and double left,Ascii
+191,277,BF,1011 1111,┐,single down and left,Ascii
+192,300,C0,1100 0000,└,single up and right,Ascii
+193,301,C1,1100 0001,┴,single up and horizontal,Ascii
+194,302,C2,1100 0010,┬,single down and horizontal,Ascii
+195,303,C3,1100 0011,├,single vertical and right,Ascii
+196,304,C4,1100 0100,─,single horizontal,Ascii
+197,305,C5,1100 0101,┼,single vertical and horizontal,Ascii
+198,306,C6,1100 0110,╞,single vertical and double right,Ascii
+199,307,C7,1100 0111,╟,double vertical and single right,Ascii
+200,310,C8,1100 1000,╚,double up and right,Ascii
+201,311,C9,1100 1001,╔,double down and right,Ascii
+202,312,CA,1100 1010,╩,double up and horizontal,Ascii
+203,313,CB,1100 1011,╦,double down and horizontal,Ascii
+204,314,CC,1100 1100,╠,double vertical and right,Ascii
+205,315,CD,1100 1101,═,double horizontal,Ascii
+206,316,CE,1100 1110,╬,double vertical and horizontal,Ascii
+207,317,CF,1100 1111,╧,single up and double horizontal,Ascii
+208,320,D0,1101 0000,╨,double up and single horizontal,Ascii
+209,321,D1,1101 0001,╤,single down and double horizontal,Ascii
+210,322,D2,1101 0010,╥,double down and single horizontal,Ascii
+211,323,D3,1101 0011,╙,double up and single right,Ascii
+212,324,D4,1101 0100,╘,single up and double right,Ascii
+213,325,D5,1101 0101,╒,single down and double right,Ascii
+214,326,D6,1101 0110,╓,double down and single right,Ascii
+215,327,D7,1101 0111,╫,double vertical and single horizontal,Ascii
+216,330,D8,1101 1000,╪,single vertical and double horizontal,Ascii
+217,331,D9,1101 1001,┘,single up and left,Ascii
+218,332,DA,1101 1010,┌,single down and right,Ascii
+219,333,DB,1101 1011,█,full block,Ascii
+220,334,DC,1101 1100,▄,bottom half block,Ascii
+221,335,DD,1101 1101,▌,left half block,Ascii
+222,336,DE,1101 1110,▐,right half block,Ascii
+223,337,DF,1101 1111,▀,top half block,Ascii
+224,340,E0,1110 0000,α,greek letter alpha,Ascii
+225,341,E1,1110 0001,ß,letter sharp s,Ascii
+226,342,E2,1110 0010,Γ,greek capital letter gamma,Ascii
+227,343,E3,1110 0011,π,greek letter pi,Ascii
+228,344,E4,1110 0100,Σ,greek capital letter sigma,Ascii
+229,345,E5,1110 0101,σ,greek letter sigma,Ascii
+230,346,E6,1110 0110,µ,micro sign,Ascii
+231,347,E7,1110 0111,τ,greek letter tau,Ascii
+232,350,E8,1110 1000,Φ,greek capital letter phi,Ascii
+233,351,E9,1110 1001,Θ,greek capital letter theta,Ascii
+234,352,EA,1110 1010,Ω,greek capital letter omega,Ascii
+235,353,EB,1110 1011,δ,greek letter delta,Ascii
+236,354,EC,1110 1100,∞,infinity,Ascii
+237,355,ED,1110 1101,φ,greek letter phi,Ascii
+238,356,EE,1110 1110,ε,greek letter epsilon,Ascii
+239,357,EF,1110 1111,∩,intersection,Ascii
+240,360,F0,1111 0000,≡,identical to,Ascii
+241,361,F1,1111 0001,±,plus-minus sign,Ascii
+242,362,F2,1111 0010,≥,greater than or equal to,Ascii
+243,363,F3,1111 0011,≤,less than or equal to,Ascii
+244,364,F4,1111 0100,⌠,top half integral,Ascii
+245,365,F5,1111 0101,⌡,bottom half integral,Ascii
+246,366,F6,1111 0110,÷,division sign,Ascii
+247,367,F7,1111 0111,≈,almost equal to,Ascii
+248,370,F8,1111 1000,°,degree sign,Ascii
+249,371,F9,1111 1001,∙,bullet operator,Ascii
+250,372,FA,1111 1010,·,middle dot,Ascii
+251,373,FB,1111 1011,√,square root,Ascii
+252,374,FC,1111 1100,ⁿ,superscript n,Ascii
+253,375,FD,1111 1101,²,superscript 2,Ascii
+254,376,FE,1111 1110,■,black square,Ascii
+255,377,FF,1111 1111,,no-break space,Ascii
